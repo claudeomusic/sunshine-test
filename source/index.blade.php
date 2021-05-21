@@ -18,4 +18,9 @@
     <p>CSS test: <span class="test-css">text with blue border</span></p>
 
     <p>JavaScript test: <a href="#test" class="test-js">click me</a></p>
+    
+    <!-- Start of yourfuzzysunshine Zendesk Widget script -->
+<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=ab4c0f38-8db8-4935-9ce2-f62d8ec149ef"> </script>
+<!-- End of yourfuzzysunshine Zendesk Widget script -->
+
 @endsection
