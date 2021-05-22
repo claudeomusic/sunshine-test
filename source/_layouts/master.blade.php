@@ -61,5 +61,8 @@
     <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
     @includeWhen($page->production, '_partials.analytics')
     @include('_partials.cms.identity_redirect')
+    <script>
+Smooch.init({ integrationId: '60a89a78e1c08900d3952b4e' });
+</script>
 </body>
 </html>
