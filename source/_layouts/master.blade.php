@@ -25,7 +25,7 @@
         if(delete o.__onWebMessengerHostReady__,o[s]=e,i)for(var t=e.init.apply(e,i),n=0;n<d.length;n++){var r=d[n];t="t"===r.type?t.then(r.next):t.catch(r.next)
         }a&&e.render.apply(e,a),h&&e.destroy.apply(e,h);for(n=0;n<u.length;n++)e.on.apply(e,u[n])};
         var n=new XMLHttpRequest;n.addEventListener("load",t),n.open("GET","https://"+e+".webloader.smooch.io/",!0),n.responseType="json",n.send()
-    }(window,document,"Smooch","60a6ffbfef6ffb00d41a2b27","5");
+    }(window,document,"Smooch","60a9f3cd0c2cda00d3729cb4","5");
 </script>
 </head>
 <body>
@@ -62,7 +62,7 @@
     @includeWhen($page->production, '_partials.analytics')
     @include('_partials.cms.identity_redirect')
     <script>
-Smooch.init({ integrationId: '60a6ffbfef6ffb00d41a2b27' });
+Smooch.init({ integrationId: '60a9f3cd0c2cda00d3729cb4' });
 </script>
 </body>
 </html>
